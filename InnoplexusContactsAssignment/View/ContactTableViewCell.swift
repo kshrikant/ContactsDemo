@@ -10,6 +10,16 @@ import UIKit
 
 class ContactTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var labelName: UILabel!
+    
+    
+    @IBOutlet weak var labelEmail: UILabel!
+    
+    @IBOutlet weak var labelAddress: UILabel!
+    
+    @IBOutlet weak var labelComapny: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
